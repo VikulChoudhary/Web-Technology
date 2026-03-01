@@ -9,7 +9,6 @@ const obj1 = {
         city: "ghaziabad"
     }
 };
-
 // destructuring
 const { name, age="21", add: { hno, city } } = obj1;
 
@@ -19,4 +18,5 @@ const obj2 = {
     name: username="Vikul",
     age: 22,
 };
+
 console.log(obj2);
